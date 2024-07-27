@@ -1,0 +1,74 @@
+:root{
+    --yellow:hsl(47, 88%, 63%);
+    --gray-500:hsl(0, 0%, 42%);
+    --gray-950:hsl(0, 0%, 7%);
+}
+
+*{
+    margin:0;
+    padding:0;
+    font-family: "Figtree";
+    font-size: 16px;
+    font-weight: 500;
+}
+
+h1{
+    font-size: 20px;
+    font-weight: 800;
+    margin: 1rem 0 1rem 0;
+}
+
+body{
+    background-color: var(--yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main{
+    width:315px;
+    background-color: white;
+    border-radius: 20px;
+    border:1px solid var(--gray-950);
+    padding:1.5rem;
+    box-shadow: 8px 8px 0px 0px var(--gray-950);
+}
+
+#illustration{
+    width:100%;
+    border-radius: 10px;
+}
+
+#learning{
+    width:fit-content;
+    padding:0.3rem 0.5rem;
+    margin: 1rem 0 1rem 0;
+    font-weight: 800;
+
+    background-color: var(--yellow);
+    border-radius: 5px;
+}
+
+#publish{
+    font-size: 14px;
+}
+
+#text{
+    color:var(--gray-500);
+}
+
+.author{
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap:0.7rem;
+}
+
+.author img{
+    width:40px;
+}
+
+.author p{
+    font-weight: 800;
+}
